@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   height: 40%;
+  
+}
+.nav {
+    /*height of white box*/
+    height:60px;
+    border: 2px solid black;
+   
+}
+.nav ul  {
+    list-style-type: none;
+   height: 200px;
+   display:flex ;
+   padding-top: 10px;
+   flex-direction: row;
+  
+}
+.nav ul a{
+  /*spacebetween*/
+    padding:10px  ;
+    text-decoration: none;
+    font:20px;
+    font:bolder ;
+
+    font-family:'Baloo Bhai',cursive;
+   
+   
+   
+}
+#mentor{
+    font-size: 40px;
+    padding-right: 400px;
+    padding-left:50px;
+    color: rgb(45, 175, 45);
+}
+.color{
+    position: relative;
+    font-size: 0px;
+    margin-top: 21px;
+   width: 1285px;
+    height: 550px;
+  background: url('girl-3718521_1280.jpg')no-repeat;
+   background-size: 1263px;
+   
+   filter: grayscale(60%);
+  -webkit-filter: grayscale(60%);
+ 
+}
+h1 {
+   padding-top: 60px;
+    padding-left: 800px;
+    height: 40px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+}
+h3{
+    display: inline-block;
+    padding-top:100px;
+   font-size: 20px;
+    padding-left: 900px;
+    color: white ;
+   
+    height: 80px;
+
+}
+.nav ul li a:hover{
+    color: rgb(45, 175, 45);
+}
+ select#dropdown{
+     padding-top: 0px;
+     float: none;
+     border: none;
+     padding-top: 2px;
+  
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 1000px;
+    height: 50px;
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(209, 204, 204);
+}
+.list{
+    display: none;
+  
+}
+.nav ul li:hover .list{
+ display: block;
+ position: absolute;
+ background: white;
+ height: 85px;
+ margin-top: 15px;
+ margin-left:15px;
+ z-index: 1;
+ margin: 10px;
+}
+.nav ul li:hover .list ul{
+    display: block;
+   margin: 10px;
+}
+.nav ul li:hover .list ul li{
+  
+    border-bottom: 1px dotted black;
+    text-align: left;
+    border-radius: 0;
+   
+}
+.to{
+    height:20px
+}
+.nav ul li:hover .list ul li:last-child
+{
+    border-bottom: none;
+}
+.nav ul li:hover .list ul li a:hover{
+ columns: ;
+}
